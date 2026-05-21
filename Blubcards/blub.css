@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 30rem; 
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    min-height: 100vh; 
+    background: linear-gradient(180deg, #c10016 0%, #f93822 35%, #ff7a5c 100%);
+}
+
+
+
+.authors {
+    display: flex;
+    flex-direction: column; 
+
+    margin: 1rem auto;
+    max-width: 20rem;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+        /* margin-top: 10rem;  */
+        /* margin-bottom: 50rem;  */
+}
+.card-1 {
+    background-color: #306D29;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+   
+
+    display: flex;
+    justify-content: center;    
+}
+
+.card-2 {
+    background-color: #C44A3A;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ 
+    display: flex;
+    justify-content: center;
+}
+.author-img {
+    width: 8rem;    
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #f8f6ef;
+    padding: 1rem; 
+    border-radius: 0 0 5px 5px;  
+    width: 100%;
+    box-sizing: border-box;
+    align-self: stretch;
+}
+
+.author-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.fields {
+    list-style: none; 
+    display: flex;
+    gap: 5px;
+}
+.fields li {
+    background-color: #f0f0f0;
+    padding: 3px 7px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.author-intro {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.actions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.date-joined {
+    font-size: 0.9rem;
+    color : #000000;
+}
+
+.papers {
+    background-color: #ff0101;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+   
+    width: fit-content; 
+    
+}
